@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup3">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup4">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup5">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup6">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup7">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup8">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup9">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup10">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup11">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="tabbedPane" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="tabbedPane" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="tabbedPane">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Ingresar">
+                <Property name="tabTitle" type="java.lang.String" value="Ingresar"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="datosAIngresarLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace pref="220" max="32767" attributes="0"/>
+                              <Component id="buttonUploadIngresar" min="-2" pref="127" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                      <Component id="componentesLabelIngresar" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="fallaLabelIngresar" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="jScrollPane3" min="-2" pref="305" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="componentesPanel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="imageLabelIngresar" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="buttonImageUpload" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="fallaLabelIngresar" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="componentesLabelIngresar" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="componentesPanel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="imageLabelIngresar" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="buttonImageUpload" min="-2" pref="33" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="buttonUploadIngresar" min="-2" pref="51" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jSeparator1" alignment="1" min="-2" pref="435" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="datosAIngresarLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPanel4" min="-2" pref="413" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="13" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="buttonImageUpload">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="subir"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonImageUploadActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JPanel" name="componentesPanel">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="checkBoxMainIngresar" min="-2" pref="85" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="checkBoxBotoneraIngresar" min="-2" pref="85" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="checkBoxModuloWifiIngresar" min="-2" pref="85" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="checkBoxFuenteIngresar" min="-2" pref="85" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="checkBoxInverterIngresar" min="-2" pref="85" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="checkBoxParlantesIngresar" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="checkBoxBacklightIngresar" alignment="0" min="-2" pref="85" max="-2" attributes="0"/>
+                                      <Component id="checkBoxPatasIngresar" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="checkBoxBaseIngresar" min="-2" max="-2" attributes="0"/>
+                                      <Component id="checkBoxPanelIngresar" min="-2" pref="85" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="checkBoxMonoplacaIngresar" min="-2" pref="85" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="checkBoxTconIngresar" min="-2" pref="85" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="checkBoxSensorRemotoIngresar" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="checkBoxMainIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="checkBoxBotoneraIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="checkBoxModuloWifiIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="checkBoxFuenteIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="checkBoxInverterIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="checkBoxParlantesIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="checkBoxMonoplacaIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="checkBoxTconIngresar" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="checkBoxSensorRemotoIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="checkBoxBacklightIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="checkBoxPanelIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="checkBoxPatasIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="checkBoxBaseIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="10" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="checkBoxFuenteIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="fuente"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxFuenteIngresarActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="checkBoxBacklightIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="backlight"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxBacklightIngresarActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="checkBoxPanelIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="panel"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="checkBoxTconIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="tcon"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="checkBoxModuloWifiIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="placa wifi"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="checkBoxMonoplacaIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="monoplaca"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxMonoplacaIngresarActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="checkBoxInverterIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="inverter"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="checkBoxBotoneraIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="botonera"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="checkBoxMainIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="main"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBoxMainIngresarActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="checkBoxParlantesIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="parlantes"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="checkBoxSensorRemotoIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="sensor remoto"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="checkBoxPatasIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="patas"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="checkBoxBaseIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="base"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                              <Component id="tipoLabelIngresar" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="codigoLabelIngresar" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="textCodigo" min="-2" pref="173" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                                  <Component id="marcaLabelIngresar" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="comboBoxMarca" min="-2" pref="173" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="modeloLabelIngresar" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="tipoLEDRadioButtonIngresar" min="-2" pref="115" max="-2" attributes="0"/>
+                                                  <Component id="textModelo" min="-2" pref="172" max="-2" attributes="0"/>
+                                                  <Component id="tipoLCDRadioButtonIngresar" alignment="0" min="-2" pref="115" max="-2" attributes="0"/>
+                                                  <Component id="tipoSMARTRadioButtonIngresar" alignment="0" min="-2" pref="115" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="fechaIngresoLabelIngresar" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="textFechaDeIngreso" min="-2" pref="170" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="accesoriosLabelIngresar" min="-2" max="-2" attributes="0"/>
+                                      <Component id="numSerieLabelIngresar" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="textNumeroDeSerie" pref="174" max="32767" attributes="0"/>
+                                      <Component id="textAccesorios" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="19" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="codigoLabelIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="fechaIngresoLabelIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textFechaDeIngreso" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="marcaLabelIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="comboBoxMarca" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="modeloLabelIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textModelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="tipoLabelIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tipoLEDRadioButtonIngresar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="tipoLCDRadioButtonIngresar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="tipoSMARTRadioButtonIngresar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="textNumeroDeSerie" min="-2" max="-2" attributes="0"/>
+                              <Component id="numSerieLabelIngresar" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="textAccesorios" min="-2" pref="73" max="-2" attributes="0"/>
+                              <Component id="accesoriosLabelIngresar" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JTextField" name="textFechaDeIngreso">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textFechaDeIngresoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="tipoLabelIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tipo"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="textNumeroDeSerie">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textNumeroDeSerieActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="numSerieLabelIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Numero de serie"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="accesoriosLabelIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Accesorios"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="tipoSMARTRadioButtonIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="SMART"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="textModelo">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textModeloActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="tipoLEDRadioButtonIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="LED"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tipoLEDRadioButtonIngresarActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="fechaIngresoLabelIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Fecha de ingreso"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="tipoLCDRadioButtonIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="LCD"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="modeloLabelIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Modelo"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="marcaLabelIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Marca"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="comboBoxMarca">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="14">
+                        <StringItem index="0" value=" "/>
+                        <StringItem index="1" value="Samsung"/>
+                        <StringItem index="2" value="Noblex"/>
+                        <StringItem index="3" value="Philco"/>
+                        <StringItem index="4" value="Phillips"/>
+                        <StringItem index="5" value="LG"/>
+                        <StringItem index="6" value="JVC"/>
+                        <StringItem index="7" value="Sony"/>
+                        <StringItem index="8" value="Hisense"/>
+                        <StringItem index="9" value="TCL"/>
+                        <StringItem index="10" value="Hitachi"/>
+                        <StringItem index="11" value="Sanyo"/>
+                        <StringItem index="12" value=" "/>
+                        <StringItem index="13" value=" "/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboBoxMarcaActionPerformed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JTextField" name="textCodigo">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textCodigoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="textAccesorios">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textAccesoriosActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="codigoLabelIngresar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Codigo"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="datosAIngresarLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Datos a ingresar"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="componentesLabelIngresar">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Componentes disponibles"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="imageLabelIngresar">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Imagenes"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator1">
+              <Properties>
+                <Property name="orientation" type="int" value="1"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="textFalla">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="fallaLabelIngresar">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Falla"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="buttonUploadIngresar">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CARGAR"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonUploadIngresarActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Buscar">
+                <Property name="tabTitle" type="java.lang.String" value="Buscar"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="marcaLabelBuscar" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="comboBoxMarcaBuscar" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="modeloLabelBuscar" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="textModeloBuscar" min="-2" pref="116" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="buttonBuscar" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="buttonMostrarImagenes" max="32767" attributes="0"/>
+                                  <Component id="buttonComponentes" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="buttonEliminar" min="-2" pref="104" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane1" min="-2" pref="743" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="27" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="marcaLabelBuscar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="comboBoxMarcaBuscar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="modeloLabelBuscar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textModeloBuscar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="buttonComponentes" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="buttonBuscar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="buttonEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="9" max="32767" attributes="0"/>
+                      <Component id="buttonMostrarImagenes" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="323" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="marcaLabelBuscar">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Marca"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboBoxMarcaBuscar">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="12">
+                    <StringItem index="0" value=" "/>
+                    <StringItem index="1" value="Samsung"/>
+                    <StringItem index="2" value="Noblex"/>
+                    <StringItem index="3" value="Philco"/>
+                    <StringItem index="4" value="Phillips"/>
+                    <StringItem index="5" value="LG"/>
+                    <StringItem index="6" value="JVC"/>
+                    <StringItem index="7" value="Sony"/>
+                    <StringItem index="8" value="Hisense"/>
+                    <StringItem index="9" value="TCL"/>
+                    <StringItem index="10" value="Hitachi"/>
+                    <StringItem index="11" value="Sanyo"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboBoxMarcaBuscarActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="modeloLabelBuscar">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Modelo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textModeloBuscar">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textModeloBuscarActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tablaBuscar">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="sansserif" size="14" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="5" rowCount="0">
+                        <Column editable="true" title="n&#xba;" type="java.lang.Integer"/>
+                        <Column editable="true" title="modelo" type="java.lang.String"/>
+                        <Column editable="true" title="marca" type="java.lang.String"/>
+                        <Column editable="true" title="tipo" type="java.lang.String"/>
+                        <Column editable="true" title="fecha de ingreso" type="java.lang.String"/>
+                      </Table>
+                    </Property>
+                    <Property name="autoResizeMode" type="int" value="4"/>
+                    <Property name="name" type="java.lang.String" value="" noResource="true"/>
+                    <Property name="selectionMode" type="int" value="0"/>
+                    <Property name="showGrid" type="boolean" value="true"/>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="false" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="buttonEliminar">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="eliminar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonEliminarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="buttonComponentes">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="componentes"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonComponentesActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="buttonBuscar">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="buscar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonBuscarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="buttonMostrarImagenes">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="imagenes"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonMostrarImagenesActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

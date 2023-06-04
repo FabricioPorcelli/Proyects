@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="226" max="32767" attributes="0"/>
+              <Component id="buttonPrimera" min="-2" pref="115" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+              <Component id="buttonAnterior" min="-2" pref="115" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+              <Component id="buttonSiguiente" min="-2" pref="115" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+              <Component id="buttonUltima" min="-2" pref="115" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="287" max="-2" attributes="0"/>
+          </Group>
+          <Component id="jLabel_Imagenes" alignment="0" pref="1200" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel_Imagenes" pref="688" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="buttonPrimera" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="buttonSiguiente" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="buttonAnterior" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="buttonUltima" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel_Imagenes">
+      <Properties>
+        <Property name="alignmentX" type="float" value="0.5"/>
+        <Property name="debugGraphicsOptions" type="int" value="-1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonPrimera">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/images/primero.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Primera"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="opaque" type="boolean" value="true"/>
+        <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/images/primero.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonPrimeraActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonSiguiente">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/images/proximo.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Siguiente"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/images/proximo.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonSiguienteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonAnterior">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/images/anterior.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Anterior"/>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="horizontalTextPosition" type="int" value="10"/>
+        <Property name="iconTextGap" type="int" value="0"/>
+        <Property name="multiClickThreshhold" type="long" value="4"/>
+        <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/images/anterior.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonAnteriorActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonUltima">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/images/ultimo.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xda;ltima"/>
+        <Property name="horizontalTextPosition" type="int" value="10"/>
+        <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/images/ultimo.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonUltimaActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
